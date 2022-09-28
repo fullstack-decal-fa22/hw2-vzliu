@@ -196,6 +196,7 @@ div.twovert {
   margin-bottom: 5rem;
   display: flex;
   justify-content: center;
+  margin: 10px;
 }
 
 /* For margin practice */
@@ -203,26 +204,24 @@ div.twovert {
   background-color: red;
   /* TODO */
   margin: 10px;
-  padding: 60px;
+  width: 50%;
 }
 
 .flag2 {
   background-color: blue;
   /* TODO */
   margin: 10px;
-  padding: 60px;
+  width: 50%;
 }
 
-.flag3 {
-  background-color: black;
-  /* TODO */
-}
+
 /* For padding practice */
-.padding-container {
+div.padding-container {
   box-sizing: border-box;
   background-color: lightblue;
   background-clip: content-box, padding-box;
   /* TODO */
+  width: 100%;
   padding: 60px;
 }
 
